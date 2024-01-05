@@ -4,9 +4,9 @@
 ## **Global Links**
 
 - [Patreon](https://www.patreon.com/5Dim)
-- [Download from ModPortal](https://mods.factorio.com/mods/McGuten)
-- [Issues](https://github.com/McGuten/Factorio5DimMods/issues)
-- [Discord comunity](https://discord.gg/CTEMFd9)
+- [Download from ModPortal](https://mods.factorio.com/mods/Orangedude27)
+- [Issues](https://github.com/orangedue27/5DimMods/issues)
+- [Discord comunity](https://discord.gg/CPpSVU5cmk)
 - [Crowdin translation](https://crowdin.com/project/5dims-mod)
 
 ## Description
