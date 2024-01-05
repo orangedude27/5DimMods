@@ -7,5 +7,5 @@
     "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
     "homepage": "https://mods.factorio.com/user/Orangedude27",
     "description": "Trains for OD27 fork of 5Dim's mods\n\rWe know that you loves trains so we are created more tiers of locomotives and wagons.\n\rThis mod include:\n\r- 10 tiers of Locomotives, wagons and fluid wagons",
-    "dependencies": ["OD27_5dim_core >= 1.1.0"]
+    "dependencies": ["OD27_5dim_core >= 1.1.0", "! 5dim_trains"]
 }

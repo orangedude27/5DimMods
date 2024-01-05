@@ -30,6 +30,7 @@
         "? modmash",
 
         "! omnifluid",
-        "! CircuitProcessing"
+        "! CircuitProcessing",
+        "! 5dim_compatibility"
     ]
 }

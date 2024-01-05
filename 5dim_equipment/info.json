@@ -7,5 +7,5 @@
     "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
     "homepage": "https://mods.factorio.com/user/Orangedude27",
     "description": "Equipment for OD27 fork of 5Dim's mod\n\rImprove your character with a new bundle of objects for your power armor\n\rThis mod include:\n\r- Batteries\n\r- Exoskeletons\n\r- Roboports\n\r- Personal laser defense\n\r- Personal tesla defense\n\r- Solar panels\n\r- Reactors\n\r- Shields",
-    "dependencies": ["OD27_5dim_core >= 1.1.9"]
+    "dependencies": ["OD27_5dim_core >= 1.1.9", "! 5dim_equipment"]
 }

@@ -6,5 +6,5 @@
     "author": "Original: folk and updated: 5Dim",
     "homepage": "https://mods.factorio.com/user/Orangedude27",
     "description": "Most likely automatically fills in things properly, probably. Preferrably both fuel and ammunition, if possible.",
-    "dependencies": ["OD27_5dim_core >= 1.1.0"]
+    "dependencies": ["OD27_5dim_core >= 1.1.0", "! 5dim_autofill"]
 }

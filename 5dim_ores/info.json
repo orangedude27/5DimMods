@@ -7,5 +7,5 @@
     "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
     "homepage": "https://mods.factorio.com/user/Orangedude27",
     "description": "Ores for OD27 fork of 5Dim's mod\n\rAdd a lot of new ores to make factorio more fun\n\rThis mod include:\n\r-",
-    "dependencies": ["OD27_5dim_core >= 1.1.0", "boblibrary >= 1.0.0"]
+    "dependencies": ["OD27_5dim_core >= 1.1.0", "boblibrary >= 1.0.0", "! 5dim_ores"]
 }
