@@ -1,6 +1,8 @@
 -- Compatibility
 require("prototypes.compatible-mods")
 
+mods["5dim_compatibility"] = mods["5dim_compatibility"]
+
 if mods["Warehousing"] then
     -- Warehouse sort
     require("prototypes.sort-warehouse")

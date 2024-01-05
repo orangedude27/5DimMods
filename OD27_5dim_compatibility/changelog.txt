@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.18
+Date: 01-05-2024
+  Changes:
+    - Fixed issues with some items not existing before sorting. Added checks for the items existing before modifying them
+---------------------------------------------------------------------------------------------------
 Version: 1.1.17
 Date: 01-05-2024
   Changes:
