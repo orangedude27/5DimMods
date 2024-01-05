@@ -1,3 +1,5 @@
+mods["5dim_core"] = mods["OD27_5dim_core"]
+
 --Item group
 require("prototypes.item-groups-energy")
 require("prototypes.item-groups-logistic")

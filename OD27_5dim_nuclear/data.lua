@@ -1,3 +1,5 @@
+mods["5dim_nuclear"] = mods["OD27_5dim_nuclear"]
+
 --Changes
 require("prototypes.changes")
 

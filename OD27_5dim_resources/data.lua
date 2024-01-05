@@ -1,3 +1,5 @@
+mods["5dim_resources"] = mods["OD27_5dim_resources"]
+
 --Changes
 require("prototypes.changes")
 
