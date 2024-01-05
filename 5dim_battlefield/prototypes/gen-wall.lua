@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.generation-wall")
+require("__OD27_5dim_core__.lib.battlefield.generation-wall")
 
 local revelado = 350
 

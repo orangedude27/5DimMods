@@ -31,7 +31,7 @@ data:extend(
         {
             type = "item",
             name = "5d-tin-dust",
-            icon = "__5dim_resources__/graphics/icon/resources/5d-tin-dust.png",
+            icon = "__OD27_5dim_resources__/graphics/icon/resources/5d-tin-dust.png",
             icon_size = 32,
             subgroup = "plates-dust",
             order = "c",
@@ -41,7 +41,7 @@ data:extend(
         {
             type = "item",
             name = "5d-gold-dust",
-            icon = "__5dim_resources__/graphics/icon/resources/5d-gold-dust.png",
+            icon = "__OD27_5dim_resources__/graphics/icon/resources/5d-gold-dust.png",
             icon_size = 32,
             subgroup = "plates-dust",
             order = "g",
@@ -51,7 +51,7 @@ data:extend(
         {
             type = "item",
             name = "5d-lead-dust",
-            icon = "__5dim_resources__/graphics/icon/resources/5d-lead-dust.png",
+            icon = "__OD27_5dim_resources__/graphics/icon/resources/5d-lead-dust.png",
             icon_size = 32,
             subgroup = "plates-dust",
             order = "d",
@@ -61,7 +61,7 @@ data:extend(
         {
             type = "item",
             name = "5d-zinc-dust",
-            icon = "__5dim_resources__/graphics/icon/resources/5d-zinc-dust.png",
+            icon = "__OD27_5dim_resources__/graphics/icon/resources/5d-zinc-dust.png",
             icon_size = 32,
             subgroup = "plates-dust",
             order = "e",
@@ -71,7 +71,7 @@ data:extend(
         {
             type = "item",
             name = "5d-aluminium-dust",
-            icon = "__5dim_resources__/graphics/icon/resources/5d-bauxite-dust.png",
+            icon = "__OD27_5dim_resources__/graphics/icon/resources/5d-bauxite-dust.png",
             icon_size = 32,
             subgroup = "plates-dust",
             order = "f",
@@ -192,7 +192,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-aluminium-plate-industrial-dust",
-            icon = "__5dim_core__/graphics/icon/aluminium-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/aluminium-plate.png",
             subgroup = "plates-industrial-dust",
             icon_size = 32,
             order = "af",
@@ -207,7 +207,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-tin-plate-industrial-dust",
-            icon = "__5dim_core__/graphics/icon/tin-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/tin-plate.png",
             subgroup = "plates-industrial-dust",
             icon_size = 32,
             order = "ac",
@@ -222,7 +222,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-zinc-plate-industrial-dust",
-            icon = "__5dim_core__/graphics/icon/zinc-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/zinc-plate.png",
             subgroup = "plates-industrial-dust",
             icon_size = 32,
             order = "ae",
@@ -237,7 +237,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-lead-plate-industrial-dust",
-            icon = "__5dim_core__/graphics/icon/lead-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/lead-plate.png",
             subgroup = "plates-industrial-dust",
             icon_size = 32,
             order = "ad",
@@ -252,7 +252,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-gold-plate-industrial-dust",
-            icon = "__5dim_core__/graphics/icon/gold-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/gold-plate.png",
             subgroup = "plates-industrial-dust",
             icon_size = 32,
             order = "ag",
@@ -268,7 +268,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-aluminium-plate-industrial",
-            icon = "__5dim_core__/graphics/icon/aluminium-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/aluminium-plate.png",
             subgroup = "plates-industrial-ore",
             icon_size = 32,
             order = "af",
@@ -283,7 +283,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-tin-plate-industrial",
-            icon = "__5dim_core__/graphics/icon/tin-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/tin-plate.png",
             subgroup = "plates-industrial-ore",
             icon_size = 32,
             order = "ac",
@@ -298,7 +298,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-zinc-plate-industrial",
-            icon = "__5dim_core__/graphics/icon/zinc-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/zinc-plate.png",
             subgroup = "plates-industrial-ore",
             icon_size = 32,
             order = "ae",
@@ -313,7 +313,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-lead-plate-industrial",
-            icon = "__5dim_core__/graphics/icon/lead-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/lead-plate.png",
             subgroup = "plates-industrial-ore",
             icon_size = 32,
             order = "ad",
@@ -328,7 +328,7 @@ data:extend(
         {
             type = "recipe",
             name = "5d-gold-plate-industrial",
-            icon = "__5dim_core__/graphics/icon/gold-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/gold-plate.png",
             subgroup = "plates-industrial-ore",
             icon_size = 32,
             order = "ag",

@@ -10,7 +10,7 @@ function genOffshorePumps(inputs)
         item.name = "5d-offshore-pump-" .. inputs.number
     end
     item.icon =
-        "__5dim_mining__/graphics/icon/offshore-pump/offshore-pump-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/icon/offshore-pump/offshore-pump-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -35,19 +35,19 @@ function genOffshorePumps(inputs)
 
     -- North
     entity.graphics_set.animation.north.layers[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/offshore-pump/north/offshore-pump-north-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/entities/offshore-pump/north/offshore-pump-north-" .. inputs.number .. ".png"
 
     -- East
     entity.graphics_set.animation.east.layers[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/offshore-pump/east/offshore-pump-east-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/entities/offshore-pump/east/offshore-pump-east-" .. inputs.number .. ".png"
 
     -- South
     entity.graphics_set.animation.south.layers[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/offshore-pump/south/offshore-pump-south-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/entities/offshore-pump/south/offshore-pump-south-" .. inputs.number .. ".png"
 
     -- West
     entity.graphics_set.animation.west.layers[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/offshore-pump/west/offshore-pump-west-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/entities/offshore-pump/west/offshore-pump-west-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

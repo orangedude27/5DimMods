@@ -9,7 +9,7 @@ function genStorageTanks(inputs)
     if inputs.new then
         item.name = "5d-storage-tank-" .. inputs.number
     end
-    item.icon = "__5dim_storage__/graphics/icon/storage-tank/storage-tank-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_storage__/graphics/icon/storage-tank/storage-tank-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -29,7 +29,7 @@ function genStorageTanks(inputs)
     entity.minable.result = item.name
     entity.fluid_box.base_area = inputs.capacity
     entity.pictures.picture.sheets[1].hr_version.filename =
-        "__5dim_storage__/graphics/entities/storage-tank/storage-tank-" .. inputs.number .. ".png"
+        "__OD27_5dim_storage__/graphics/entities/storage-tank/storage-tank-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

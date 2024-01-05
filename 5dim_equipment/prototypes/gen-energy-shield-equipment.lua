@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-energy-shield-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-energy-shield-equipment")
 
 local bufferCapacity = 120
 local shield = 50

@@ -4,7 +4,7 @@ data:extend(
         {
             type = "item",
             name = "5d-concrete-b2",
-            icon = "__5dim_decoration__/graphics/icon/concreteB2.png",
+            icon = "__OD27_5dim_decoration__/graphics/icon/concreteB2.png",
             -- flags = {"goes-to-main-inventory"},
             icon_size = 32,
             subgroup = "decoration-floor",
@@ -48,18 +48,18 @@ if not data.is_demo then
                 variants = {
                     main = {
                         {
-                            picture = "__5dim_decoration__/graphics/icon/concrete1B2.png",
+                            picture = "__OD27_5dim_decoration__/graphics/icon/concrete1B2.png",
                             count = 16,
                             size = 1
                         },
                         {
-                            picture = "__5dim_decoration__/graphics/icon/concrete2B2.png",
+                            picture = "__OD27_5dim_decoration__/graphics/icon/concrete2B2.png",
                             count = 4,
                             size = 2,
                             probability = 0.39
                         },
                         {
-                            picture = "__5dim_decoration__/graphics/icon/concrete4B2.png",
+                            picture = "__OD27_5dim_decoration__/graphics/icon/concrete4B2.png",
                             count = 4,
                             size = 4,
                             probability = 1

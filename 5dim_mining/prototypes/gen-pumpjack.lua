@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.mining.generation-pumpjack")
+require("__OD27_5dim_core__.lib.mining.generation-pumpjack")
 
 local speed = 1
 local modules = 2

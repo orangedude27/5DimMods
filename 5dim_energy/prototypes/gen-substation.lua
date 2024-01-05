@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-substation")
+require("__OD27_5dim_core__.lib.energy.generation-substation")
 
 local speed = 18
 local modules = 2

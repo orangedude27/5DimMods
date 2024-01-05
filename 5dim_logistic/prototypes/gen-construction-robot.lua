@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.logistic.generation-construction-robot")
+require("__OD27_5dim_core__.lib.logistic.generation-construction-robot")
 
 local speed = 0.06
 local modules = 5

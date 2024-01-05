@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.nuclear.generation-centrifuge")
+require("__OD27_5dim_core__.lib.nuclear.generation-centrifuge")
 
 local speed = 1
 local modules = 2

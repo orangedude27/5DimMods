@@ -1,5 +1,5 @@
 require("prototypes.settings")
-require("__5dim_core__.lib.enemies.generation-biter")
+require("__OD27_5dim_core__.lib.enemies.generation-biter")
 
 -- Biter
 genBiter {

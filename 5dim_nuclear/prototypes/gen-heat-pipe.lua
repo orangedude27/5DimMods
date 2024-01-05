@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.nuclear.generation-heat-pipe")
+require("__OD27_5dim_core__.lib.nuclear.generation-heat-pipe")
 
 local speed = 1000
 local modules = 2

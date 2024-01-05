@@ -5,7 +5,7 @@ data:extend(
             name = "transport",
             order = "gd",
             inventory_order = "gd",
-            icon = "__5dim_core__/graphics/icon/transport.png",
+            icon = "__OD27_5dim_core__/graphics/icon/transport.png",
             icon_size = 64
         },
         {

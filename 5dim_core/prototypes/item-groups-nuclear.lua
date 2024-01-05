@@ -5,7 +5,7 @@ data:extend(
             name = "nuclear",
             order = "gh",
             inventory_order = "gh",
-            icon = "__5dim_core__/graphics/icon/enuclear.png",
+            icon = "__OD27_5dim_core__/graphics/icon/enuclear.png",
             icon_size = 64
         },
         {

@@ -11,7 +11,7 @@ if mods["Kux-OrbitalIonCannon"] then
 end
 
 -- Loader Redux compatibility
-if mods["LoaderRedux"] and mods["5dim_transport"] then
+if mods["LoaderRedux"] and mods["OD27_5dim_transport"] then
     data.raw["loader"]["express-loader"].next_upgrade = "5d-loader-04"
 end
 
@@ -59,13 +59,13 @@ if mods["aai-industry"] and mods["space-exploration"] then
 end
 
 -- Bobs mod compatibility
-if mods["bobpower"] and mods["5dim_nuclear"] then
+if mods["bobpower"] and mods["OD27_5dim_nuclear"] then
     data.raw.boiler["heat-exchanger"].fast_replaceable_group = "heat-exchanger"
     data.raw.boiler["heat-exchanger-2"].fast_replaceable_group = "heat-exchanger"
     data.raw.boiler["heat-exchanger-3"].fast_replaceable_group = "heat-exchanger"
     data.raw.boiler["heat-exchanger"].fast_replaceable_group = "heat-exchanger"
 end
-if mods["bobpower"] and mods["5dim_energy"] then
+if mods["bobpower"] and mods["OD27_5dim_energy"] then
     data.raw["electric-pole"]["big-electric-pole"].fast_replaceable_group = "big-electric-pole"
     data.raw["electric-pole"]["big-electric-pole-2"].fast_replaceable_group = "big-electric-pole"
     data.raw["electric-pole"]["big-electric-pole-3"].fast_replaceable_group = "big-electric-pole"
@@ -75,17 +75,17 @@ if mods["bobpower"] and mods["5dim_energy"] then
     data.raw["electric-pole"]["substation-3"].fast_replaceable_group = "substation"
     data.raw["electric-pole"]["substation-4"].fast_replaceable_group = "substation"
 end
-if mods["boblogistics"] and mods["5dim_transport"] then
+if mods["boblogistics"] and mods["OD27_5dim_transport"] then
     data.raw["pump"]["pump"].fast_replaceable_group = "pump"
     data.raw["pump"]["bob-pump-2"].fast_replaceable_group = "pump"
     data.raw["pump"]["bob-pump-3"].fast_replaceable_group = "pump"
     data.raw["pump"]["bob-pump-4"].fast_replaceable_group = "pump"
 end
-if mods["bobwarfare"] and mods["5dim_battlefield"] then
+if mods["bobwarfare"] and mods["OD27_5dim_battlefield"] then
     data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "gun-turret"
     data.raw["electric-turret"]["laser-turret"].fast_replaceable_group = "laser-turret"
 end
-if mods["bobtech"] and mods["5dim_automation"] then
+if mods["bobtech"] and mods["OD27_5dim_automation"] then
     local inputLab = "advanced-logistic-science-pack"
     table.insert(data.raw["lab"]["5d-lab-02"].inputs, inputLab)
     table.insert(data.raw["lab"]["5d-lab-03"].inputs, inputLab)
@@ -99,12 +99,12 @@ if mods["bobtech"] and mods["5dim_automation"] then
 end
 
 -- Transport drones
-if mods["Transport_Drones"] and mods["5dim_transport"] then
+if mods["Transport_Drones"] and mods["OD27_5dim_transport"] then
     data.raw["pump"]["transport-depot-writer"].next_upgrade = nil
 end
 
 --Bio Industries
-if mods["Bio_Industries"] and mods["5dim_decoration"] then
+if mods["Bio_Industries"] and mods["OD27_5dim_decoration"] then
     data.raw.tree["5d-banner-1"].minable = {hardness = 0.2, mining_time = 0.5, result = "5d-banner-1"}
     data.raw.tree["5d-banner-2"].minable = {hardness = 0.2, mining_time = 0.5, result = "5d-banner-2"}
     data.raw.tree["5d-banner-3"].minable = {hardness = 0.2, mining_time = 0.5, result = "5d-banner-3"}
@@ -113,7 +113,7 @@ if mods["Bio_Industries"] and mods["5dim_decoration"] then
 end
 
 -- ModSmash
-if mods["modmashsplinterlogistics"] and mods["5dim_transport"] then
+if mods["modmashsplinterlogistics"] and mods["OD27_5dim_transport"] then
     -- Logistics 4
     table.insert(data.raw.technology["logistics-4"].effects, {type = "unlock-recipe", recipe = "5d-inserter-04"})
     table.insert(data.raw.technology["logistics-4"].effects, {type = "unlock-recipe", recipe = "5d-filter-inserter-04"})
@@ -154,7 +154,7 @@ if mods["modmashsplinterlogistics"] and mods["5dim_transport"] then
 end
 
 -- ModSmash
-if mods["modmashsplinterassembling"] and mods["5dim_automation"] then
+if mods["modmashsplinterassembling"] and mods["OD27_5dim_automation"] then
     -- Automation 4
     table.insert(
         data.raw.technology["automation-4"].effects,

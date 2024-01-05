@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-solar-panel-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-solar-panel-equipment")
 
 local powerProduction = 30
 local techCount = 400

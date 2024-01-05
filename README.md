@@ -1,10 +1,9 @@
-# **5Dim's mod**
-![logo](logo.png)
+# **Orangedude27's Fork of OD27 fork of 5Dim's mod**
 
 ## **Global Links**
 
 - [Download from ModPortal](https://mods.factorio.com/mods/Orangedude27)
-- [Issues](https://github.com/orangedue27/5DimMods/issues)
+- [Issues](https://github.com/orangedue27/OD27_5DimMods/issues)
 - [Discord comunity](https://discord.gg/CPpSVU5cmk)
 - [Crowdin translation](https://crowdin.com/project/5dims-mod)
 
@@ -15,7 +14,7 @@ This mod is a **total conversion** and it has **tons of modules** and we recomme
 ## Mod list
 ### Core module
   - **Core**.
-    - Core, library and settings of 5Dim's mod.
+    - Core, library and settings of OD27 fork of 5Dim's mod.
     - You can install our modules in your current saved game without any problem.
     -  **REQUIRED for any other module**
 
@@ -60,14 +59,14 @@ This mod is a **total conversion** and it has **tons of modules** and we recomme
   - **Bot Recaller**.
     - Utility mod to help recall/collect bots within a network.
   - **Locales**.
-    - Add translates for 5dim's mod.
+    - Add translates for OD27 fork of 5Dim's mod.
   - **Compatibility**.
-    - Add compatibility for 5dim's mod with other mods.
+    - Add compatibility for OD27 fork of 5Dim's mod with other mods.
 
 ## Translations
 1. If you want to translate the mod to other lang you should use the follow template or help me in [Crowdin translation](https://crowdin.com/project/5dims-mod)
-2. [5Dim's Locale > locale > en.example](5dim_locale/locale/en.example)
-3. You should use this template to translate the mod and upload it with [Pull Request](https://github.com/McGuten/Factorio5DimMods/pulls)
+2. [5Dim's Locale > locale > en.example](OD27_5dim_locale/locale/en.example)
+3. You should use this template to translate the mod and upload it with [Pull Request](https://github.com/Orangedude27/OD27_5DimMods/pulls)
 
 ## Errors
 
@@ -91,9 +90,3 @@ for _, tech_name in pairs(tech) do
   end
 end
 ```
-
-
-## Images
-
-![core](core-settings.png)
-![mod](mod-settings.png)

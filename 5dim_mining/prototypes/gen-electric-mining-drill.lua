@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.mining.generation-electric-mining-drill")
+require("__OD27_5dim_core__.lib.mining.generation-electric-mining-drill")
 
 local speed = 0.5
 local modules = 2

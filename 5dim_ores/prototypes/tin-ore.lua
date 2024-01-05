@@ -5,7 +5,7 @@ tin = {
     hardness = 0.8,
     mining_time = 2,
     enabled = true,
-    icon = "__5dim_ores__/graphics/icon/tin-ore.png",
+    icon = "__OD27_5dim_ores__/graphics/icon/tin-ore.png",
     stage_mult = 10,
     item = {
         create = true,
@@ -28,7 +28,7 @@ data:extend(
         {
             type = "item",
             name = "tin-plate",
-            icon = "__5dim_core__/graphics/icon/tin-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/tin-plate.png",
             icon_size = 32,
             subgroup = "plates-plates",
             order = "c",
@@ -47,7 +47,7 @@ data:extend(
         {
             type = "item",
             name = "5d-tin-gear-wheel",
-            icon = "__5dim_core__/graphics/icon/icon_5dim_tin-gear-wheel.png",
+            icon = "__OD27_5dim_core__/graphics/icon/icon_OD27_5dim_tin-gear-wheel.png",
             icon_size = 32,
             subgroup = "intermediate-gear",
             order = "b",

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.gun-turret.generation-gun-turret")
+require("__OD27_5dim_core__.lib.battlefield.gun-turret.generation-gun-turret")
 
 local rango = 32
 local ammo = 5

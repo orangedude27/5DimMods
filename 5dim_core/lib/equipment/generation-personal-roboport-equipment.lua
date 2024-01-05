@@ -20,7 +20,7 @@ function genPersonalRoboports(inputs)
     if inputs.new then
         item.name = "5d-personal-roboport-equipment-" .. inputs.number
     end
-    item.icon = "__5dim_equipment__/graphics/icon/personal-roboport/personal-roboport-equipment-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_equipment__/graphics/icon/personal-roboport/personal-roboport-equipment-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.placed_as_equipment_result = item.name
@@ -41,7 +41,7 @@ function genPersonalRoboports(inputs)
     equipment.energy_source.buffer_capacity = inputs.capacity .. "MJ"
     equipment.charging_energy = inputs.charging .. "kW"
     equipment.sprite.filename =
-        "__5dim_equipment__/graphics/equipment/personal-roboport/personal-roboport-equipment-" .. inputs.number .. ".png"
+        "__OD27_5dim_equipment__/graphics/equipment/personal-roboport/personal-roboport-equipment-" .. inputs.number .. ".png"
 
     data:extend({equipment, recipe, item})
 

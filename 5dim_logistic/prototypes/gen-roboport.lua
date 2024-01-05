@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.logistic.generation-roboport")
+require("__OD27_5dim_core__.lib.logistic.generation-roboport")
 
 local speed = 1000
 local modules = 5

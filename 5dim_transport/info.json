@@ -1,11 +1,11 @@
 {
-    "name": "5dim_transport",
+    "name": "OD27_5dim_transport",
     "version": "1.1.7",
     "factorio_version": "1.1",
-    "title": "5Dim's mod - New Transport",
+    "title": "OD27 fork of 5Dim's mod - New Transport",
     "author": "5Dim",
-    "contact": "https://github.com/McGuten/Factorio5DimMods/issues",
-    "homepage": "https://mods.factorio.com/user/McGuten",
-    "description": "Transport for 5dim's mod\n\rYou can move all of your stuff along your base efficiently with a new bundle of transport belt, loaders and inserters\n\rThis mod include:\n\r- 10 tiers of transport belts.\n\r- 10 tiers of underground belt (and new x30 and x50 underground belts)\n\r- 10 tiers of splitters\n\r- 8 tiers of loaders\n\r- 10 tiers of default inserters, filter inserters, stack inserters and stack filter inserters\n\r- 10 tiers of pumps",
-    "dependencies": ["5dim_core >= 1.1.9", "bobinserters >= 1.1.0"]
+    "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
+    "homepage": "https://mods.factorio.com/user/Orangedude27",
+    "description": "Transport for OD27 fork of 5Dim's mod\n\rYou can move all of your stuff along your base efficiently with a new bundle of transport belt, loaders and inserters\n\rThis mod include:\n\r- 10 tiers of transport belts.\n\r- 10 tiers of underground belt (and new x30 and x50 underground belts)\n\r- 10 tiers of splitters\n\r- 8 tiers of loaders\n\r- 10 tiers of default inserters, filter inserters, stack inserters and stack filter inserters\n\r- 10 tiers of pumps",
+    "dependencies": ["OD27_5dim_core >= 1.1.9", "bobinserters >= 1.1.0"]
 }

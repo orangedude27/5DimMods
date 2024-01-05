@@ -9,7 +9,7 @@ function genWaterPumpjacks(inputs)
     if inputs.new then
         item.name = "5d-water-pumpjack-" .. inputs.number
     end
-    item.icon = "__5dim_mining__/graphics/icon/water-pumpjack/water-pumpjack-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_mining__/graphics/icon/water-pumpjack/water-pumpjack-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -41,7 +41,7 @@ function genWaterPumpjacks(inputs)
         animation_speed = 0.5,
         hr_version = {
             priority = "high",
-            filename = "__5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
+            filename = "__OD27_5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
                 inputs.number .. ".png",
             animation_speed = 0.5,
             scale = 0.5,
@@ -63,7 +63,7 @@ function genWaterPumpjacks(inputs)
         animation_speed = 0.5,
         hr_version = {
             priority = "high",
-            filename = "__5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
+            filename = "__OD27_5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
                 inputs.number .. ".png",
             animation_speed = 0.5,
             scale = 0.5,
@@ -85,7 +85,7 @@ function genWaterPumpjacks(inputs)
         animation_speed = 0.5,
         hr_version = {
             priority = "high",
-            filename = "__5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
+            filename = "__OD27_5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
                 inputs.number .. ".png",
             animation_speed = 0.5,
             scale = 0.5,
@@ -107,7 +107,7 @@ function genWaterPumpjacks(inputs)
         animation_speed = 0.5,
         hr_version = {
             priority = "high",
-            filename = "__5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
+            filename = "__OD27_5dim_mining__/graphics/entities/water-pumpjack/water-pumpjack-horsehead-" ..
                 inputs.number .. ".png",
             animation_speed = 0.5,
             scale = 0.5,
@@ -138,7 +138,7 @@ function genWaterPumpjacks(inputs)
     -- Technology
     if inputs.tech then
         tech.name = "5d-water-pumpjack-" .. inputs.tech.number
-        tech.icon = "__5dim_mining__/graphics/technology/water-pumpjack-tech.png"
+        tech.icon = "__OD27_5dim_mining__/graphics/technology/water-pumpjack-tech.png"
         tech.icon_size = 128
         tech.unit.count = inputs.tech.count
         tech.unit.ingredients = inputs.tech.packs

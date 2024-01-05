@@ -1,5 +1,5 @@
 -- Robots cargo size
-if mods["5dim_logistic"] and settings.startup["5d-storage"].value then
+if mods["OD27_5dim_logistic"] and settings.startup["5d-storage"].value then
     require("prototypes.worker-robots-storage")
 end
 

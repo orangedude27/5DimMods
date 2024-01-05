@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.generation-radar")
+require("__OD27_5dim_core__.lib.battlefield.generation-radar")
 
 local escaner = 14
 local revelado = 3

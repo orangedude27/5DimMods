@@ -10,7 +10,7 @@ function genElectricFurnaces(inputs)
         item.name = "5d-electric-furnace-" .. inputs.number
     end
     item.icon =
-        "__5dim_resources__/graphics/icon/electric-furnace/electric-furnace-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_resources__/graphics/icon/electric-furnace/electric-furnace-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -32,7 +32,7 @@ function genElectricFurnaces(inputs)
     entity.module_specification.module_slots = inputs.moduleSlots
     entity.energy_usage = inputs.energyUsage .. "kW"
     entity.animation.layers[1].hr_version.filename =
-        "__5dim_resources__/graphics/entities/electric-furnace/hr-electric-furnace-" .. inputs.number .. ".png"
+        "__OD27_5dim_resources__/graphics/entities/electric-furnace/hr-electric-furnace-" .. inputs.number .. ".png"
     entity.energy_source.emissions_per_minute = inputs.pollution
 
     data:extend({entity, recipe, item})

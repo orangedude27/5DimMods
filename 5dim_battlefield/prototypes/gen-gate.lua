@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.generation-gate")
+require("__OD27_5dim_core__.lib.battlefield.generation-gate")
 
 local revelado = 350
 local techCount = 500

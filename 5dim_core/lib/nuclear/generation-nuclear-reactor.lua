@@ -10,7 +10,7 @@ function genNuclearReactors(inputs)
         item.name = "5d-nuclear-reactor-" .. inputs.number
     end
     item.icon =
-        "__5dim_nuclear__/graphics/icon/nuclear-reactor/nuclear-reactor-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/icon/nuclear-reactor/nuclear-reactor-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -38,7 +38,7 @@ function genNuclearReactors(inputs)
 
     -- Base
     entity.picture.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/nuclear-reactor/reactor-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/nuclear-reactor/reactor-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

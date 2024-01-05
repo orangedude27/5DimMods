@@ -5,7 +5,7 @@ zinc = {
     hardness = 1.4,
     mining_time = 2,
     enabled = true,
-    icon = "__5dim_ores__/graphics/icon/zinc-ore.png",
+    icon = "__OD27_5dim_ores__/graphics/icon/zinc-ore.png",
     stage_mult = 10,
     item = {
         create = true,
@@ -28,7 +28,7 @@ data:extend(
         {
             type = "item",
             name = "zinc-plate",
-            icon = "__5dim_core__/graphics/icon/zinc-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/zinc-plate.png",
             icon_size = 32,
             subgroup = "plates-plates",
             order = "e",
@@ -47,7 +47,7 @@ data:extend(
         {
             type = "item",
             name = "5d-zinc-gear-wheel",
-            icon = "__5dim_core__/graphics/icon/icon_5dim_zinc-gear-wheel.png",
+            icon = "__OD27_5dim_core__/graphics/icon/icon_OD27_5dim_zinc-gear-wheel.png",
             icon_size = 32,
             subgroup = "intermediate-gear",
             order = "c",

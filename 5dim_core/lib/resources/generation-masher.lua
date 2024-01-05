@@ -7,7 +7,7 @@ function genMasher(inputs)
 
     --Item
     item.name = "5d-masher-" .. inputs.number
-    item.icon = "__5dim_resources__/graphics/icon/masher/masher-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_resources__/graphics/icon/masher/masher-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -29,7 +29,7 @@ function genMasher(inputs)
     entity.module_specification.module_slots = inputs.moduleSlots
     entity.energy_usage = inputs.energyUsage .. "kW"
     entity.animation.layers[1].hr_version.filename =
-        "__5dim_resources__/graphics/entities/masher/masher-" .. inputs.number .. ".png"
+        "__OD27_5dim_resources__/graphics/entities/masher/masher-" .. inputs.number .. ".png"
     entity.animation.layers[1].hr_version.width = 160
     entity.animation.layers[1].hr_version.height = 160
     entity.animation.layers[1].hr_version.shift = {0, -0.421875}

@@ -10,7 +10,7 @@ function genHeatExchangers(inputs)
         item.name = "5d-heat-exchanger-" .. inputs.number
     end
     item.icon =
-        "__5dim_nuclear__/graphics/icon/heat-exchanger/heatex-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/icon/heat-exchanger/heatex-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -37,16 +37,16 @@ function genHeatExchangers(inputs)
 
     -- North
     entity.structure.north.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/heat-exchanger/heatex-N-idle/heatex-N-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/heat-exchanger/heatex-N-idle/heatex-N-idle-" .. inputs.number .. ".png"
     -- East
     entity.structure.east.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/heat-exchanger/heatex-E-idle/heatex-E-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/heat-exchanger/heatex-E-idle/heatex-E-idle-" .. inputs.number .. ".png"
     -- South
     entity.structure.south.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/heat-exchanger/heatex-S-idle/heatex-S-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/heat-exchanger/heatex-S-idle/heatex-S-idle-" .. inputs.number .. ".png"
     -- West
     entity.structure.west.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/heat-exchanger/heatex-W-idle/heatex-W-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/heat-exchanger/heatex-W-idle/heatex-W-idle-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

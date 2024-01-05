@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-personal-roboport-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-personal-roboport-equipment")
 
 local bufferCapacity = 10
 local robot = 10

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-exoskeleton-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-exoskeleton-equipment")
 
 local consumption = 200
 local speed = 0.3

@@ -10,7 +10,7 @@ function genPumpjacks(inputs)
         item.name = "5d-pumpjack-" .. inputs.number
     end
     item.icon =
-        "__5dim_mining__/graphics/icon/pumpjack/pumpjack-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/icon/pumpjack/pumpjack-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -35,11 +35,11 @@ function genPumpjacks(inputs)
 
     --Base
     entity.base_picture.sheets[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/pumpjack/pumpjack-base.png"
+        "__OD27_5dim_mining__/graphics/entities/pumpjack/pumpjack-base.png"
 
     -- Animation
     entity.animations.north.layers[1].hr_version.filename =
-        "__5dim_mining__/graphics/entities/pumpjack/pumpjack-horsehead-" .. inputs.number .. ".png"
+        "__OD27_5dim_mining__/graphics/entities/pumpjack/pumpjack-horsehead-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

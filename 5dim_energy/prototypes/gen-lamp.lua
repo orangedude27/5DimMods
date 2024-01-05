@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-lamp")
+require("__OD27_5dim_core__.lib.energy.generation-lamp")
 
 local energy = 5
 local size = 40

@@ -9,7 +9,7 @@ function genExoskeletons(inputs)
     if inputs.new then
         item.name = "5d-exoskeleton-equipment-" .. inputs.number
     end
-    item.icon = "__5dim_equipment__/graphics/icon/exoskeleton/exoskeleton-equipment-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_equipment__/graphics/icon/exoskeleton/exoskeleton-equipment-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.placed_as_equipment_result = item.name
@@ -27,7 +27,7 @@ function genExoskeletons(inputs)
     equipment.energy_consumption = inputs.energyConsumption .. "kW"
     equipment.movement_bonus = inputs.movementSpeed
     equipment.sprite.filename =
-        "__5dim_equipment__/graphics/equipment/exoskeleton/exoskeleton-equipment-" .. inputs.number .. ".png"
+        "__OD27_5dim_equipment__/graphics/equipment/exoskeleton/exoskeleton-equipment-" .. inputs.number .. ".png"
 
     data:extend({equipment, recipe, item})
 

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.resources.generation-electric-furnace")
+require("__OD27_5dim_core__.lib.resources.generation-electric-furnace")
 
 local crafting = 2
 local modules = 2

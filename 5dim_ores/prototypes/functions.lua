@@ -61,7 +61,7 @@ function resource(name, order, map_color, hardness, coverage)
     return {
         type = "resource",
         name = name,
-        icon = "__5dim_ores__/graphics/icon/" .. name .. ".png",
+        icon = "__OD27_5dim_ores__/graphics/icon/" .. name .. ".png",
         icon_size = 32,
         flags = {"placeable-neutral"},
         order = order,
@@ -80,14 +80,14 @@ function resource(name, order, map_color, hardness, coverage)
         stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 200, 80},
         stages = {
             sheet = {
-                filename = "__5dim_ores__/graphics/icon/ore-1.png",
+                filename = "__OD27_5dim_ores__/graphics/icon/ore-1.png",
                 priority = "extra-high",
                 width = 64,
                 height = 64,
                 frame_count = 8,
                 variation_count = 8,
                 hr_version = {
-                    filename = "__5dim_ores__/graphics/icon/hr-ore-1.png",
+                    filename = "__OD27_5dim_ores__/graphics/icon/hr-ore-1.png",
                     priority = "extra-high",
                     width = 128,
                     height = 128,
@@ -106,7 +106,7 @@ function itemResource (name, order)
 	    {
 	      type = "item",
 	      name = name,
-	      icon = "__5dim_ores__/graphics/icons/" .. name .. ".png",
+	      icon = "__OD27_5dim_ores__/graphics/icons/" .. name .. ".png",
 	      icon_size = 32,
 	      flags = {"goes-to-main-inventory"},
 	      subgroup = "plates-ore",

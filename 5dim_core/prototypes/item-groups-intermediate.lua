@@ -5,7 +5,7 @@ data:extend(
             name = "intermediate",
             order = "gac",
             inventory_order = "gc",
-            icon = "__5dim_core__/graphics/icon/intermediate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/intermediate.png",
             icon_size = 64
         },
         {

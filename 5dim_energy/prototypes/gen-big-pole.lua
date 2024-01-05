@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-big-pole")
+require("__OD27_5dim_core__.lib.energy.generation-big-pole")
 
 local speed = 30
 local modules = 2

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.laser-turret.generation-laser-turret")
+require("__OD27_5dim_core__.lib.battlefield.laser-turret.generation-laser-turret")
 
 local rango = 18
 local shootingSpeed = 20

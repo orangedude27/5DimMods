@@ -5,7 +5,7 @@ data:extend(
             name = "energy",
             order = "gb",
             inventory_order = "gb",
-            icon = "__5dim_core__/graphics/icon/energy.png",
+            icon = "__OD27_5dim_core__/graphics/icon/energy.png",
             icon_size = 64
         },
         {

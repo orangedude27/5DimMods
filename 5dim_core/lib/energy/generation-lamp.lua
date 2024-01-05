@@ -9,7 +9,7 @@ function genLamps(inputs)
     if inputs.new then
         item.name = "5d-lamp-" .. inputs.number
     end
-    item.icon = "__5dim_energy__/graphics/icon/lamp/lamp-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_energy__/graphics/icon/lamp/lamp-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -35,7 +35,7 @@ function genLamps(inputs)
 
     -- Base
     entity.picture_off.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/lamp/lamp-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/lamp/lamp-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

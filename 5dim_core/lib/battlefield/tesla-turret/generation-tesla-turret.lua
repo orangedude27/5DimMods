@@ -14,7 +14,7 @@ function genTeslaTurrets(inputs)
         item.name = "5d-tesla-turret-" .. inputs.number
     end
     item.icon =
-        "__5dim_battlefield__/graphics/icon/tesla-turret/tesla-turret-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_battlefield__/graphics/icon/tesla-turret/tesla-turret-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name

@@ -10,7 +10,7 @@ function genSteamEngines(inputs)
         item.name = "5d-steam-engine-" .. inputs.number
     end
     item.icon =
-        "__5dim_energy__/graphics/icon/steam-engine/steam-engine-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/icon/steam-engine/steam-engine-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -52,10 +52,10 @@ function genSteamEngines(inputs)
 
     -- Horizontal
     entity.horizontal_animation.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/steam-engine/steam-engine-H/steam-engine-H-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/steam-engine/steam-engine-H/steam-engine-H-" .. inputs.number .. ".png"
     -- Vertical
     entity.vertical_animation.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/steam-engine/steam-engine-V/steam-engine-V-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/steam-engine/steam-engine-V/steam-engine-V-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

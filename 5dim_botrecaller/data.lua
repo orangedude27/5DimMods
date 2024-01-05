@@ -3,7 +3,7 @@ local newItem = table.deepcopy(data.raw["item"]["logistic-chest-requester"])
 local newRecipe = table.deepcopy(data.raw["recipe"]["roboport"])
 
 newEntity.name = "5d-logistic-chest-botRecaller"
-newEntity.icon = "__5dim_botrecaller__/graphics/icon.png"
+newEntity.icon = "__OD27_5dim_botrecaller__/graphics/icon.png"
 newEntity.icon_size = 32
 newEntity.minable = {hardness = 0.2, mining_time = 0.5, result = "5d-logistic-chest-botRecaller"}
 

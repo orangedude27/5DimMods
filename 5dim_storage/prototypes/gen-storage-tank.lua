@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.storage.generation-storage-tank")
+require("__OD27_5dim_core__.lib.storage.generation-storage-tank")
 
 local tankCapacity = 250
 local techCount = 250

@@ -43,7 +43,7 @@ local function checkModuleHasProductivity(module)
 end
 
 
-if mods["5dim_resources"] then
+if mods["OD27_5dim_resources"] then
     for _, module in pairs(data.raw.module) do
         if checkModuleHasProductivity(module) then
             addProductivityLimitation(module, '5d-iron-plate')

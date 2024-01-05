@@ -8,7 +8,7 @@ data:extend(
             default_value = 60,
             minimum_value = 1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Stacks of player inventory (Default: 60)"
+            localised_name = "[OD27 fork of 5Dim's mods] Stacks of player inventory (Default: 60)"
         },
         {
             type = "int-setting",
@@ -18,7 +18,7 @@ data:extend(
             default_value = 1,
             minimum_value = 1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Stacks of items (Multiplier)"
+            localised_name = "[OD27 fork of 5Dim's mods] Stacks of items (Multiplier)"
         },
         {
             type = "int-setting",
@@ -28,7 +28,7 @@ data:extend(
             default_value = 6,
             minimum_value = 1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Long reach (Default: 6)",
+            localised_name = "[OD27 fork of 5Dim's mods] Long reach (Default: 6)",
             localised_description = "Distance for build and open inventories, for can interact with all screen: 125"
         },
         {
@@ -39,7 +39,7 @@ data:extend(
             default_value = 6,
             minimum_value = 1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Long Mine (Default: 6)",
+            localised_name = "[OD27 fork of 5Dim's mods] Long Mine (Default: 6)",
             localised_description = "Extend the mining distance of your player: 125"
         },
         {
@@ -50,7 +50,7 @@ data:extend(
             default_value = 1,
             minimum_value = 0.01,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Mining speed (Multiplier)"
+            localised_name = "[OD27 fork of 5Dim's mods] Mining speed (Multiplier)"
         },
         {
             type = "int-setting",
@@ -60,7 +60,7 @@ data:extend(
             default_value = 25,
             minimum_value = 1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Light radius (Default: 25)"
+            localised_name = "[OD27 fork of 5Dim's mods] Light radius (Default: 25)"
         },
         {
             type = "bool-setting",
@@ -69,7 +69,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Infinite ores"
+            localised_name = "[OD27 fork of 5Dim's mods] Infinite ores"
         },
         {
             type = "bool-setting",
@@ -78,7 +78,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Infinite ores with full yield"
+            localised_name = "[OD27 fork of 5Dim's mods] Infinite ores with full yield"
         },
         {
             type = "bool-setting",
@@ -87,7 +87,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Small tree collision box"
+            localised_name = "[OD27 fork of 5Dim's mods] Small tree collision box"
         },
         {
             type = "string-setting",
@@ -96,7 +96,7 @@ data:extend(
             setting_type = "startup",
             default_value = "Nothing",
             allowed_values = {"Nothing", "Small amount", "Medium amount", "Big amount", "Huge amount"},
-            localised_name = "[5Dim's mods] Items to start a new map (Default: Nothing)"
+            localised_name = "[OD27 fork of 5Dim's mods] Items to start a new map (Default: Nothing)"
         },
         {
             type = "string-setting",
@@ -105,7 +105,7 @@ data:extend(
             setting_type = "startup",
             default_value = "Nothing",
             allowed_values = {"Nothing", "Modular armor", "Power armor", "Power armor MK2"},
-            localised_name = "[5Dim's mods] Equipment to start a new map (Default: Nothing)"
+            localised_name = "[OD27 fork of 5Dim's mods] Equipment to start a new map (Default: Nothing)"
         },
         {
             type = "bool-setting",
@@ -114,7 +114,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Start with trains technologies"
+            localised_name = "[OD27 fork of 5Dim's mods] Start with trains technologies"
         },
         {
             type = "bool-setting",
@@ -123,7 +123,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Start with robots technologies"
+            localised_name = "[OD27 fork of 5Dim's mods] Start with robots technologies"
         },
         {
             type = "int-setting",
@@ -133,7 +133,7 @@ data:extend(
             default_value = 250,
             minimum_value = 1,
             maximum_value = 100000,
-            localised_name = "[5Dim's mods] Player health (Default 250)"
+            localised_name = "[OD27 fork of 5Dim's mods] Player health (Default 250)"
         },
         {
             type = "double-setting",
@@ -143,7 +143,7 @@ data:extend(
             default_value = 0.15,
             minimum_value = 0.1,
             maximum_value = 1000,
-            localised_name = "[5Dim's mods] Player healing per tick (Default 0.15)"
+            localised_name = "[OD27 fork of 5Dim's mods] Player healing per tick (Default 0.15)"
         },
         {
             type = "bool-setting",
@@ -152,7 +152,7 @@ data:extend(
             setting_type = "startup",
             default_value = false,
             per_user = false,
-            localised_name = "[5Dim's mods] Stackeable artillery bullets"
+            localised_name = "[OD27 fork of 5Dim's mods] Stackeable artillery bullets"
         }
     }
 )
@@ -167,7 +167,7 @@ if not mods["Rampant"] then
                 default_value = 1,
                 minimum_value = 0.01,
                 maximum_value = 1000,
-                localised_name = "[5Dim's mods] Enemies spawners health (Multiplier)"
+                localised_name = "[OD27 fork of 5Dim's mods] Enemies spawners health (Multiplier)"
             },
             {
                 type = "double-setting",
@@ -177,7 +177,7 @@ if not mods["Rampant"] then
                 default_value = 1,
                 minimum_value = 0.01,
                 maximum_value = 1000,
-                localised_name = "[5Dim's mods] Enemies health (Multiplier)"
+                localised_name = "[OD27 fork of 5Dim's mods] Enemies health (Multiplier)"
             },
             {
                 type = "double-setting",
@@ -187,13 +187,13 @@ if not mods["Rampant"] then
                 default_value = 1,
                 minimum_value = 0.001,
                 maximum_value = 1000,
-                localised_name = "[5Dim's mods] Enemies healing per tick (Multiplier)"
+                localised_name = "[OD27 fork of 5Dim's mods] Enemies healing per tick (Multiplier)"
             }
         }
     )
 end
 
-if mods["5dim_enemies"] then
+if mods["OD27_5dim_enemies"] then
     --order d for battelfield
     data:extend(
         {
@@ -251,7 +251,7 @@ if mods["5dim_enemies"] then
     )
 end
 
-if mods["5dim_infiniteresearch"] then
+if mods["OD27_5dim_infiniteresearch"] then
     --order e for infinite research
     data:extend(
         {
@@ -309,7 +309,7 @@ if mods["5dim_infiniteresearch"] then
     )
 end
 
-if mods["5dim_vehicle"] and mods["5dim_equipment"] then
+if mods["OD27_5dim_vehicle"] and mods["OD27_5dim_equipment"] then
     --order z for misc
     data:extend(
         {

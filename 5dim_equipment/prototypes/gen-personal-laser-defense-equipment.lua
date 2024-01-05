@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-personal-laser-defense-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-personal-laser-defense-equipment")
 
 local consumption = 50
 local cooldown = 40

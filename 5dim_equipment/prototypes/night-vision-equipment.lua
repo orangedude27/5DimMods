@@ -6,7 +6,7 @@ local tech = table.deepcopy(data.raw.technology["night-vision-equipment"])
 
 --Item
 item.name = "5d-night-vision-equipment-02"
-item.icon = "__5dim_equipment__/graphics/icon/night-vision/night-vision-equipment-02.png"
+item.icon = "__OD27_5dim_equipment__/graphics/icon/night-vision/night-vision-equipment-02.png"
 item.subgroup = "armor-util"
 item.order = "e"
 item.placed_as_equipment_result = item.name
@@ -26,7 +26,7 @@ recipe.ingredients = {
 -- Equipment
 equipment.name = item.name
 equipment.energy_input = 20 .. "kW"
-equipment.sprite.filename = "__5dim_equipment__/graphics/equipment/night-vision/night-vision-equipment-02.png"
+equipment.sprite.filename = "__OD27_5dim_equipment__/graphics/equipment/night-vision/night-vision-equipment-02.png"
 equipment.color_lookup = {
     {0.5, "__core__/graphics/color_luts/identity-lut.png"}
 }

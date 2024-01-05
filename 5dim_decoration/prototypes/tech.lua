@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "decoration",
-		icon = "__5dim_decoration__/graphics/icon/decoration.png",
+		icon = "__OD27_5dim_decoration__/graphics/icon/decoration.png",
 		icon_size = 128,
 		effects =
 		{

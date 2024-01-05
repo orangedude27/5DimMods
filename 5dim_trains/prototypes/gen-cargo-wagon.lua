@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.trains.generation-cargo-wagon")
+require("__OD27_5dim_core__.lib.trains.generation-cargo-wagon")
 
 local speed = 1.5
 local maxCargo = 40

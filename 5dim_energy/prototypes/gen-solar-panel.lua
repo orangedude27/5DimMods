@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-solar-panel")
+require("__OD27_5dim_core__.lib.energy.generation-solar-panel")
 
 local speed = 60
 local modules = 2

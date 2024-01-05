@@ -30,13 +30,13 @@ function genGunTurrets(inputs)
     local split = inputs.number:split("-")
 
     if string.find(inputs.number, "small") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/gun-turret/small/gun-turret-small-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/gun-turret/small/gun-turret-small-" .. split[2] .. ".png"
     elseif string.find(inputs.number, "big") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/gun-turret/big/gun-turret-big-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/gun-turret/big/gun-turret-big-" .. split[2] .. ".png"
     elseif string.find(inputs.number, "sniper") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/gun-turret/sniper/gun-turret-sniper-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/gun-turret/sniper/gun-turret-sniper-" .. split[2] .. ".png"
     else
-        item.icon = "__5dim_battlefield__/graphics/icon/gun-turret/normal/gun-turret-normal-" .. split[1] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/gun-turret/normal/gun-turret-normal-" .. split[1] .. ".png"
     end
 
     item.subgroup = inputs.subgroup

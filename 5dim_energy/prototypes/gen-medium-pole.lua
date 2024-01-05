@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-medium-pole")
+require("__OD27_5dim_core__.lib.energy.generation-medium-pole")
 
 local speed = 9
 local modules = 2

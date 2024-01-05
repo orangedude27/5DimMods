@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.transport.generation-pump")
+require("__OD27_5dim_core__.lib.transport.generation-pump")
 
 local speed = 200
 local modules = 2

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.transport.generation-transport-belt")
+require("__OD27_5dim_core__.lib.transport.generation-transport-belt")
 
 local transportBeltSpeed = 0.03125
 local techCount = 200

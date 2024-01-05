@@ -1,11 +1,11 @@
 {
-    "name": "5dim_locale",
+    "name": "OD27_5dim_locale",
     "version": "1.1.5",
     "factorio_version": "1.1",
-    "title": "5Dim's mod - New Locales",
+    "title": "OD27 fork of 5Dim's mod - New Locales",
     "author": "5Dim",
-    "contact": "https://github.com/McGuten/Factorio5DimMods/issues",
-    "homepage": "https://mods.factorio.com/user/McGuten",
-    "description": "Locale for 5dim's mod\n\rThis mod include:\n\r- English",
-    "dependencies": ["5dim_core >= 1.1.0"]
+    "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
+    "homepage": "https://mods.factorio.com/user/Orangedude27",
+    "description": "Locale for OD27 fork of 5Dim's mod\n\rThis mod include:\n\r- English",
+    "dependencies": ["OD27_5dim_core >= 1.1.0"]
 }

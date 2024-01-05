@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.mining.generation-offshore-pump")
+require("__OD27_5dim_core__.lib.mining.generation-offshore-pump")
 
 local speed = 20
 local modules = 2

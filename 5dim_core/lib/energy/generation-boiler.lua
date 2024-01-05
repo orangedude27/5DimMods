@@ -10,7 +10,7 @@ function genBoilers(inputs)
         item.name = "5d-boiler-" .. inputs.number
     end
     item.icon =
-        "__5dim_energy__/graphics/icon/boiler/boiler-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/icon/boiler/boiler-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -37,16 +37,16 @@ function genBoilers(inputs)
 
     -- North
     entity.structure.north.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/boiler/boiler-N-idle/boiler-N-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/boiler/boiler-N-idle/boiler-N-idle-" .. inputs.number .. ".png"
     -- East
     entity.structure.east.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/boiler/boiler-E-idle/boiler-E-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/boiler/boiler-E-idle/boiler-E-idle-" .. inputs.number .. ".png"
     -- South
     entity.structure.south.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/boiler/boiler-S-idle/boiler-S-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/boiler/boiler-S-idle/boiler-S-idle-" .. inputs.number .. ".png"
     -- West
     entity.structure.west.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/boiler/boiler-W-idle/boiler-W-idle-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/boiler/boiler-W-idle/boiler-W-idle-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

@@ -10,7 +10,7 @@ function genBigPoles(inputs)
         item.name = "5d-big-electric-pole-" .. inputs.number
     end
     item.icon =
-        "__5dim_energy__/graphics/icon/big-electric-pole/big-electric-pole-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/icon/big-electric-pole/big-electric-pole-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -36,7 +36,7 @@ function genBigPoles(inputs)
 
     -- Base
     entity.pictures.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/big-electric-pole/big-electric-pole-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/big-electric-pole/big-electric-pole-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

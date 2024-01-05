@@ -5,7 +5,7 @@ data:extend(
             name = "plates",
             order = "gab",
             inventory_order = "gab",
-            icon = "__5dim_core__/graphics/icon/plates.png",
+            icon = "__OD27_5dim_core__/graphics/icon/plates.png",
             icon_size = 64
         },
         {

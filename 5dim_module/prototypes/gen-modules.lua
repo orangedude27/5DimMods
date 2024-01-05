@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.module.generation-module")
+require("__OD27_5dim_core__.lib.module.generation-module")
 
 local level = 1
 local time = 5

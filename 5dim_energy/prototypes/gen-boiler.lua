@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-boiler")
+require("__OD27_5dim_core__.lib.energy.generation-boiler")
 
 local speed = 1.8
 local modules = 2

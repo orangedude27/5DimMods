@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.flamethrower-turret.generation-flamethrower-turret")
+require("__OD27_5dim_core__.lib.battlefield.flamethrower-turret.generation-flamethrower-turret")
 
 local rango = 30
 local minRango = 6

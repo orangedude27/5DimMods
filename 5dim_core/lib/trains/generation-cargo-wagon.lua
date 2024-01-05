@@ -10,7 +10,7 @@ function genCargoWagons(inputs)
         item.name = "5d-cargo-wagon-" .. inputs.number
     end
     item.icon =
-        "__5dim_trains__/graphics/icon/cargo-wagon/cargo-wagon-" .. inputs.number .. ".png"
+        "__OD27_5dim_trains__/graphics/icon/cargo-wagon/cargo-wagon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name

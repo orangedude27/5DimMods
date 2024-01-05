@@ -5,7 +5,7 @@ bauxite = {
     hardness = 1.4,
     mining_time = 2,
     enabled = true,
-    icon = "__5dim_ores__/graphics/icon/bauxite-ore.png",
+    icon = "__OD27_5dim_ores__/graphics/icon/bauxite-ore.png",
     stage_mult = 10,
     item = {
         create = true,
@@ -28,7 +28,7 @@ data:extend(
         {
             type = "item",
             name = "aluminium-plate",
-            icon = "__5dim_core__/graphics/icon/aluminium-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/aluminium-plate.png",
             icon_size = 32,
             subgroup = "plates-plates",
             order = "f",
@@ -47,7 +47,7 @@ data:extend(
         {
             type = "item",
             name = "5d-aluminium-wire",
-            icon = "__5dim_core__/graphics/icon/5dim_icon_aluminiunwire.png",
+            icon = "__OD27_5dim_core__/graphics/icon/OD27_5dim_icon_aluminiunwire.png",
             icon_size = 32,
             subgroup = "logistic-wire",
             order = "e",
@@ -65,7 +65,7 @@ data:extend(
         {
             type = "item",
             name = "5d-aluminium-gear-wheel",
-            icon = "__5dim_core__/graphics/icon/icon_5dim_aluminio-gear-wheel.png",
+            icon = "__OD27_5dim_core__/graphics/icon/icon_OD27_5dim_aluminio-gear-wheel.png",
             icon_size = 32,
             subgroup = "intermediate-gear",
             order = "d",

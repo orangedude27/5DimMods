@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.automation.generation-oil-refinery")
+require("__OD27_5dim_core__.lib.automation.generation-oil-refinery")
 
 local speed = 1
 local modules = 3

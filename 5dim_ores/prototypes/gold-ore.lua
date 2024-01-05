@@ -5,7 +5,7 @@ gold = {
     hardness = 0.6,
     mining_time = 2,
     enabled = true,
-    icon = "__5dim_ores__/graphics/icon/gold-ore.png",
+    icon = "__OD27_5dim_ores__/graphics/icon/gold-ore.png",
     stage_mult = 10,
     item = {
         create = true,
@@ -27,7 +27,7 @@ data:extend(
         {
             type = "item",
             name = "gold-plate",
-            icon = "__5dim_core__/graphics/icon/gold-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/gold-plate.png",
             icon_size = 32,
             subgroup = "plates-plates",
             order = "g",
@@ -46,7 +46,7 @@ data:extend(
         {
             type = "item",
             name = "5d-gold-wire",
-            icon = "__5dim_core__/graphics/icon/5dim_icon_goldwire.png",
+            icon = "__OD27_5dim_core__/graphics/icon/OD27_5dim_icon_goldwire.png",
             icon_size = 32,
             subgroup = "logistic-wire",
             order = "d",
@@ -64,7 +64,7 @@ data:extend(
         {
             type = "item",
             name = "5d-gold-circuit",
-            icon = "__5dim_core__/graphics/icon/icon_5dim-circuit.png",
+            icon = "__OD27_5dim_core__/graphics/icon/icon_5dim-circuit.png",
             icon_size = 32,
             subgroup = "intermediate-chip",
             order = "d",

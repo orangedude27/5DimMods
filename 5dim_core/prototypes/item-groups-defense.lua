@@ -5,7 +5,7 @@ data:extend(
             name = "defense",
             order = "gv",
             inventory_order = "gv",
-            icon = "__5dim_core__/graphics/icon/defense.png",
+            icon = "__OD27_5dim_core__/graphics/icon/defense.png",
             icon_size = 64
         },
         {

@@ -10,7 +10,7 @@ function genCentrifuges(inputs)
         item.name = "5d-centrifuge-" .. inputs.number
     end
     item.icon =
-        "__5dim_nuclear__/graphics/icon/centrifuge/centrifuge-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/icon/centrifuge/centrifuge-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -38,7 +38,7 @@ function genCentrifuges(inputs)
 
     -- Base
     entity.idle_animation.layers[1].hr_version.filename =
-        "__5dim_nuclear__/graphics/entities/centrifuge/centrifuge-C-" .. inputs.number .. ".png"
+        "__OD27_5dim_nuclear__/graphics/entities/centrifuge/centrifuge-C-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

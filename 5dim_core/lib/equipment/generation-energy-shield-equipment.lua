@@ -20,7 +20,7 @@ function genEnergyShields(inputs)
     if inputs.new then
         item.name = "5d-energy-shield-equipment-" .. inputs.number
     end
-    item.icon = "__5dim_equipment__/graphics/icon/energy-shield/energy-shield-equipment-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_equipment__/graphics/icon/energy-shield/energy-shield-equipment-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.placed_as_equipment_result = item.name
@@ -39,7 +39,7 @@ function genEnergyShields(inputs)
     equipment.energy_source.buffer_capacity = inputs.capacity .. "kJ"
     equipment.energy_source.input_flow_limit = inputs.inputFlow .. "kW"
     equipment.sprite.filename =
-        "__5dim_equipment__/graphics/equipment/energy-shield/energy-shield-equipment-" .. inputs.number .. ".png"
+        "__OD27_5dim_equipment__/graphics/equipment/energy-shield/energy-shield-equipment-" .. inputs.number .. ".png"
 
     data:extend({equipment, recipe, item})
 

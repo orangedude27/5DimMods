@@ -6,7 +6,7 @@ local tech = table.deepcopy(data.raw.technology["advanced-material-processing-2"
 
 --Item
 item.name = "5d-industrial-furnace"
-item.icon = "__5dim_resources__/graphics/icon/industrial-furnace/industrial-furnace-icon.png"
+item.icon = "__OD27_5dim_resources__/graphics/icon/industrial-furnace/industrial-furnace-icon.png"
 item.icon_size = 32
 item.subgroup = "furnace-industrial"
 item.order = "a"
@@ -35,7 +35,7 @@ entity.crafting_speed = 7
 entity.module_specification.module_slots = 4
 entity.energy_usage = 7500 .. "kW"
 entity.animation = {
-    filename = "__5dim_resources__/graphics/entities/industrial-furnace/industrial-furnace.png",
+    filename = "__OD27_5dim_resources__/graphics/entities/industrial-furnace/industrial-furnace.png",
     priority = "high",
     width = 224,
     height = 224,

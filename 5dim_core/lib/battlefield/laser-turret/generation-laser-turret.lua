@@ -31,16 +31,16 @@ function genLaserTurrets(inputs)
     local multiplier = 1
 
     if string.find(inputs.number, "small") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/laser-turret/small/laser-turret-small-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/laser-turret/small/laser-turret-small-" .. split[2] .. ".png"
         multiplier = 0.5
     elseif string.find(inputs.number, "big") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/laser-turret/big/laser-turret-big-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/laser-turret/big/laser-turret-big-" .. split[2] .. ".png"
         multiplier = 2
     elseif string.find(inputs.number, "sniper") ~= nil then
-        item.icon = "__5dim_battlefield__/graphics/icon/laser-turret/sniper/laser-turret-sniper-" .. split[2] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/laser-turret/sniper/laser-turret-sniper-" .. split[2] .. ".png"
         multiplier = 4
     else
-        item.icon = "__5dim_battlefield__/graphics/icon/laser-turret/normal/laser-turret-normal-" .. split[1] .. ".png"
+        item.icon = "__OD27_5dim_battlefield__/graphics/icon/laser-turret/normal/laser-turret-normal-" .. split[1] .. ".png"
         multiplier = 1
     end
 

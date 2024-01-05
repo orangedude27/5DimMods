@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.battlefield.tesla-turret.generation-tesla-turret")
+require("__OD27_5dim_core__.lib.battlefield.tesla-turret.generation-tesla-turret")
 
 local rango = 50
 local shootingSpeed = 60

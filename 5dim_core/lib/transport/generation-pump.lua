@@ -10,7 +10,7 @@ function genPumps(inputs)
         item.name = "5d-pump-" .. inputs.number
     end
     item.icon =
-        "__5dim_transport__/graphics/icon/pump/pump-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/icon/pump/pump-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -36,19 +36,19 @@ function genPumps(inputs)
 
     -- North
     entity.animations.north.hr_version.filename =
-        "__5dim_transport__/graphics/entities/pump/pump-north/pump-north-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/pump/pump-north/pump-north-" .. inputs.number .. ".png"
 
     -- -- East
     entity.animations.east.hr_version.filename =
-        "__5dim_transport__/graphics/entities/pump/pump-east/pump-east-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/pump/pump-east/pump-east-" .. inputs.number .. ".png"
 
     -- -- South
     entity.animations.south.hr_version.filename =
-        "__5dim_transport__/graphics/entities/pump/pump-south/pump-south-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/pump/pump-south/pump-south-" .. inputs.number .. ".png"
 
     -- -- West
     entity.animations.west.hr_version.filename =
-        "__5dim_transport__/graphics/entities/pump/pump-west/pump-west-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/pump/pump-west/pump-west-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

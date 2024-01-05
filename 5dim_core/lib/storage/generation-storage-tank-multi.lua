@@ -7,7 +7,7 @@ function genStorageTankMultis(inputs)
 
     --Item
     item.name = "5d-storage-tank-multi-" .. inputs.number
-    item.icon = "__5dim_storage__/graphics/icon/storage-tank-multi/storage-tank-multi-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_storage__/graphics/icon/storage-tank-multi/storage-tank-multi-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -27,7 +27,7 @@ function genStorageTankMultis(inputs)
     entity.minable.result = item.name
     entity.fluid_box.base_area = inputs.capacity
     entity.pictures.picture.sheets[1].hr_version.filename =
-        "__5dim_storage__/graphics/entities/storage-tank-multi/storage-tank-multi-" .. inputs.number .. ".png"
+        "__OD27_5dim_storage__/graphics/entities/storage-tank-multi/storage-tank-multi-" .. inputs.number .. ".png"
     entity.fluid_box.pipe_connections = {
         {position = {-1, -2}},
         {position = {-1, 2}},

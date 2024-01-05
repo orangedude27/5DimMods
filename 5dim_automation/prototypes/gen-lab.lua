@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.automation.generation-lab")
+require("__OD27_5dim_core__.lib.automation.generation-lab")
 
 local speed = 1
 local modules = 2

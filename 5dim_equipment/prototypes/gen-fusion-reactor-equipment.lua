@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-fusion-reactor-equipment")
+require("__OD27_5dim_core__.lib.equipment.generation-fusion-reactor-equipment")
 
 local powerProduction = 750
 local techCount = 400

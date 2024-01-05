@@ -12,7 +12,7 @@ function genGates(inputs)
         item.name = "5d-gate-" .. inputs.number
     end
     item.icon =
-        "__5dim_battlefield__/graphics/icon/gate/gate-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_battlefield__/graphics/icon/gate/gate-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -37,7 +37,7 @@ function genGates(inputs)
 
     -- Base
     -- entity.picture.layers[1].hr_version.filename =
-    --     "__5dim_energy__/graphics/entities/laser-turret/laser-turret-" .. inputs.number .. ".png"
+    --     "__OD27_5dim_energy__/graphics/entities/laser-turret/laser-turret-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

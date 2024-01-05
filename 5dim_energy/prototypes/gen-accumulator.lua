@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.energy.generation-accumulator")
+require("__OD27_5dim_core__.lib.energy.generation-accumulator")
 
 local speed = 5
 local modules = 2

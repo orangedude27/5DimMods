@@ -1,6 +1,6 @@
 lead = {
     name = "lead-ore",
-    icon = "__5dim_ores__/graphics/icon/lead-ore.png",
+    icon = "__OD27_5dim_ores__/graphics/icon/lead-ore.png",
     hardness = 0.7,
     mining_time = 1.5,
     tint = {r = 0.5, g = 0.5, b = 0.5},
@@ -28,7 +28,7 @@ data:extend(
         {
             type = "item",
             name = "lead-plate",
-            icon = "__5dim_core__/graphics/icon/lead-plate.png",
+            icon = "__OD27_5dim_core__/graphics/icon/lead-plate.png",
             icon_size = 32,
             subgroup = "plates-plates",
             order = "d",

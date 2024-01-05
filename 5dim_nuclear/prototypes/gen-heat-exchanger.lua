@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.nuclear.generation-heat-exchanger")
+require("__OD27_5dim_core__.lib.nuclear.generation-heat-exchanger")
 
 local speed = 2
 local modules = 2

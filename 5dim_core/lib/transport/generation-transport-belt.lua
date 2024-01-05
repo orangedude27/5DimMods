@@ -20,7 +20,7 @@ function genTransportBelts(inputs)
         itemTransportBelt.name = "5d-transport-belt-" .. inputs.number
     end
     itemTransportBelt.icon =
-        "__5dim_transport__/graphics/icon/transport-belt/transport-belt-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/icon/transport-belt/transport-belt-icon-" .. inputs.number .. ".png"
     itemTransportBelt.subgroup = "transport-belt"
     itemTransportBelt.order = inputs.order
     itemTransportBelt.place_result = itemTransportBelt.name
@@ -65,7 +65,7 @@ function genTransportBelts(inputs)
     -- East
     if inputs.number ~= "01" then
         entityTransportBelt.belt_animation_set.animation_set.hr_version.filename =
-            "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+            "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
     end
 
     data:extend({entityTransportBelt, recipeTransportBelt, itemTransportBelt})
@@ -80,7 +80,7 @@ function genTransportBelts(inputs)
         itemUndergroundBelt.name = "5d-underground-belt-" .. inputs.number
     end
     itemUndergroundBelt.icon =
-        "__5dim_transport__/graphics/icon/underground-belt/underground-belt-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/icon/underground-belt/underground-belt-icon-" .. inputs.number .. ".png"
     itemUndergroundBelt.subgroup = "transport-ground"
     itemUndergroundBelt.order = inputs.order
     itemUndergroundBelt.place_result = itemUndergroundBelt.name
@@ -115,17 +115,17 @@ function genTransportBelts(inputs)
 
     if inputs.number ~= "01" then
         entityUndergroundBelt.belt_animation_set.animation_set.hr_version.filename =
-            "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+            "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
     end
 
     entityUndergroundBelt.structure.direction_in.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt.structure.direction_out.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt.structure.direction_in_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt.structure.direction_out_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
 
     data:extend({entityUndergroundBelt, recipeUndergroundBelt, itemUndergroundBelt})
 
@@ -137,7 +137,7 @@ function genTransportBelts(inputs)
     -- underground transport belt
     itemUndergroundBelt30.name = "5d-" .. inputs.name.preName .. "underground-belt-30-" .. inputs.number
     itemUndergroundBelt30.icon =
-        "__5dim_transport__/graphics/icon/underground-belt-30/underground-belt-icon-" .. inputs.number .. "-30.png"
+        "__OD27_5dim_transport__/graphics/icon/underground-belt-30/underground-belt-icon-" .. inputs.number .. "-30.png"
     itemUndergroundBelt30.subgroup = "transport-ground-30"
     itemUndergroundBelt30.order = inputs.order
     itemUndergroundBelt30.place_result = itemUndergroundBelt30.name
@@ -175,17 +175,17 @@ function genTransportBelts(inputs)
 
     if inputs.number ~= "01" then
         entityUndergroundBelt30.belt_animation_set.animation_set.hr_version.filename =
-            "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+            "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
     end
 
     entityUndergroundBelt30.structure.direction_in.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt30.structure.direction_out.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt30.structure.direction_in_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt30.structure.direction_out_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
 
     data:extend({entityUndergroundBelt30, recipeUndergroundBelt30, itemUndergroundBelt30})
 
@@ -197,7 +197,7 @@ function genTransportBelts(inputs)
     -- underground transport belt
     itemUndergroundBelt50.name = "5d-" .. inputs.name.preName .. "underground-belt-50-" .. inputs.number
     itemUndergroundBelt50.icon =
-        "__5dim_transport__/graphics/icon/underground-belt-50/underground-belt-icon-" .. inputs.number .. "-50.png"
+        "__OD27_5dim_transport__/graphics/icon/underground-belt-50/underground-belt-icon-" .. inputs.number .. "-50.png"
     itemUndergroundBelt50.subgroup = "transport-ground-50"
     itemUndergroundBelt50.order = inputs.order
     itemUndergroundBelt50.place_result = itemUndergroundBelt50.name
@@ -234,17 +234,17 @@ function genTransportBelts(inputs)
 
     if inputs.number ~= "01" then
         entityUndergroundBelt50.belt_animation_set.animation_set.hr_version.filename =
-            "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+            "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
     end
 
     entityUndergroundBelt50.structure.direction_in.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt50.structure.direction_out.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt50.structure.direction_in_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
     entityUndergroundBelt50.structure.direction_out_side_loading.sheet.hr_version.filename =
-        "__5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/underground-belt/underground-belt-" .. inputs.number .. ".png"
 
     data:extend({entityUndergroundBelt50, recipeUndergroundBelt50, itemUndergroundBelt50})
 
@@ -257,7 +257,7 @@ function genTransportBelts(inputs)
     if inputs.new then
         itemSplitter.name = "5d-splitter-" .. inputs.number
     end
-    itemSplitter.icon = "__5dim_transport__/graphics/icon/splitter/splitter-icon-" .. inputs.number .. ".png"
+    itemSplitter.icon = "__OD27_5dim_transport__/graphics/icon/splitter/splitter-icon-" .. inputs.number .. ".png"
     itemSplitter.subgroup = "transport-splitters"
     itemSplitter.order = inputs.order
     itemSplitter.place_result = itemSplitter.name
@@ -292,22 +292,22 @@ function genTransportBelts(inputs)
     entitySplitter.speed = inputs.speed
 
     entitySplitter.belt_animation_set.animation_set.hr_version.filename =
-        "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
 
     entitySplitter.structure.north.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-north/splitter-north-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-north/splitter-north-" .. inputs.number .. ".png"
     entitySplitter.structure.east.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-east/splitter-east-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-east/splitter-east-" .. inputs.number .. ".png"
     entitySplitter.structure.south.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-south/splitter-south-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-south/splitter-south-" .. inputs.number .. ".png"
     entitySplitter.structure.west.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-west/splitter-west-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-west/splitter-west-" .. inputs.number .. ".png"
 
     entitySplitter.structure_patch.east.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-east-top_patch/splitter-east-top_patch-" ..
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-east-top_patch/splitter-east-top_patch-" ..
         inputs.number .. ".png"
     entitySplitter.structure_patch.west.hr_version.filename =
-        "__5dim_transport__/graphics/entities/splitter/splitter-west-top_patch/splitter-west-top_patch-" ..
+        "__OD27_5dim_transport__/graphics/entities/splitter/splitter-west-top_patch/splitter-west-top_patch-" ..
         inputs.number .. ".png"
 
     if inputs.number == "01" or inputs.number == "02" then
@@ -326,7 +326,7 @@ function genTransportBelts(inputs)
     if inputs.new then
         itemLoader.name = "5d-loader-" .. inputs.number
     end
-    itemLoader.icon = "__5dim_transport__/graphics/icon/loader/loader-icon-" .. inputs.number .. ".png"
+    itemLoader.icon = "__OD27_5dim_transport__/graphics/icon/loader/loader-icon-" .. inputs.number .. ".png"
     itemLoader.icon_size = 64
     itemLoader.subgroup = "transport-loader"
     itemLoader.order = inputs.order
@@ -365,15 +365,15 @@ function genTransportBelts(inputs)
 
     if inputs.number ~= "01" then
         entityLoader.belt_animation_set.animation_set.hr_version.filename =
-            "__5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
+            "__OD27_5dim_transport__/graphics/entities/transport-belt/transport-belt-" .. inputs.number .. ".png"
     end
 
     entityLoader.structure.direction_in.sheet.filename =
-        "__5dim_transport__/graphics/entities/loader/loader-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/loader/loader-" .. inputs.number .. ".png"
     entityLoader.structure.direction_in.sheet.width = 128
     entityLoader.structure.direction_in.sheet.height = 128
     entityLoader.structure.direction_out.sheet.filename =
-        "__5dim_transport__/graphics/entities/loader/loader-" .. inputs.number .. ".png"
+        "__OD27_5dim_transport__/graphics/entities/loader/loader-" .. inputs.number .. ".png"
     entityLoader.structure.direction_out.sheet.width = 128
     entityLoader.structure.direction_out.sheet.height = 128
     entityLoader.structure.direction_out.sheet.y = 128

@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.trains.generation-locomotive")
+require("__OD27_5dim_core__.lib.trains.generation-locomotive")
 
 local speed = 1.2
 local energy = 600

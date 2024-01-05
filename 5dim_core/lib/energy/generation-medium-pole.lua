@@ -10,7 +10,7 @@ function genMediumPoles(inputs)
         item.name = "5d-medium-electric-pole-" .. inputs.number
     end
     item.icon =
-        "__5dim_energy__/graphics/icon/medium-electric-pole/medium-electric-pole-icon-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/icon/medium-electric-pole/medium-electric-pole-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -35,7 +35,7 @@ function genMediumPoles(inputs)
 
     -- Base
     entity.pictures.layers[1].hr_version.filename =
-        "__5dim_energy__/graphics/entities/medium-electric-pole/medium-electric-pole-" .. inputs.number .. ".png"
+        "__OD27_5dim_energy__/graphics/entities/medium-electric-pole/medium-electric-pole-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

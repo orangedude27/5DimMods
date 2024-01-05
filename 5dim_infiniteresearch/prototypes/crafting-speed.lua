@@ -3,7 +3,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-1",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {
@@ -25,7 +25,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-6",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {
@@ -49,7 +49,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-11",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {
@@ -74,7 +74,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-16",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {
@@ -100,7 +100,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-21",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {
@@ -127,7 +127,7 @@ data:extend(
         {
             type = "technology",
             name = "crafting-speed-26",
-            icon = "__5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
+            icon = "__OD27_5dim_infiniteresearch__/graphics/icon/crafting-speed.png",
             icon_size = 128,
             effects = {
                 {

@@ -9,7 +9,7 @@ function genLogisticRobots(inputs)
     if inputs.new then
         item.name = "5d-logistic-robot-" .. inputs.number
     end
-    item.icon = "__5dim_logistic__/graphics/icons/logistic-robot/logistic-robot-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_logistic__/graphics/icons/logistic-robot/logistic-robot-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -32,16 +32,16 @@ function genLogisticRobots(inputs)
 
     -- Idle
     entity.idle.hr_version.filename =
-        "__5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
+        "__OD27_5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
     -- Idle
     entity.idle_with_cargo.hr_version.filename =
-        "__5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
+        "__OD27_5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
     -- Idle
     entity.in_motion.hr_version.filename =
-        "__5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
+        "__OD27_5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
     -- Idle
     entity.in_motion_with_cargo.hr_version.filename =
-        "__5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
+        "__OD27_5dim_logistic__/graphics/entities/logistic-robot/logistic-robot-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

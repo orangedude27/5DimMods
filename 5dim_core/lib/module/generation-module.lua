@@ -17,7 +17,7 @@ function genModules(inputs)
         itemSpeed.name = "5d-speed-module-" .. inputs.number
     end
     itemSpeed.icon =
-        "__5dim_module__/graphics/icons/speed-module/speed-module-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/icons/speed-module/speed-module-" .. inputs.number .. ".png"
     itemSpeed.subgroup = "speed"
     itemSpeed.order = inputs.order
     itemSpeed.effect = inputs.effects.speed
@@ -70,7 +70,7 @@ function genModules(inputs)
         itemEffectivity.name = "5d-effectivity-module-" .. inputs.number
     end
     itemEffectivity.icon =
-        "__5dim_module__/graphics/icons/effectivity-module/effectivity-module-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/icons/effectivity-module/effectivity-module-" .. inputs.number .. ".png"
     itemEffectivity.subgroup = "effectivity"
     itemEffectivity.order = inputs.order
     itemEffectivity.effect = inputs.effects.effectivity
@@ -123,7 +123,7 @@ function genModules(inputs)
         itemProductivity.name = "5d-productivity-module-" .. inputs.number
     end
     itemProductivity.icon =
-        "__5dim_module__/graphics/icons/productivity-module/productivity-module-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/icons/productivity-module/productivity-module-" .. inputs.number .. ".png"
     itemProductivity.subgroup = "productivity"
     itemProductivity.order = inputs.order
     itemProductivity.effect = inputs.effects.productivity
@@ -173,7 +173,7 @@ function genModules(inputs)
     --Item
     itemPollution.name = "5d-pollution-module-" .. inputs.number
     itemPollution.icon =
-        "__5dim_module__/graphics/icons/pollution-module/pollution-module-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/icons/pollution-module/pollution-module-" .. inputs.number .. ".png"
     itemPollution.subgroup = "pollution"
     itemPollution.order = inputs.order
     itemPollution.effect = inputs.effects.pollution
@@ -223,7 +223,7 @@ function genModules(inputs)
     --Item
     itemMerged.name = "5d-merged-module-" .. inputs.number
     itemMerged.icon =
-        "__5dim_module__/graphics/icons/merged-module/merged-module-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/icons/merged-module/merged-module-" .. inputs.number .. ".png"
     itemMerged.subgroup = "merged"
     itemMerged.order = inputs.order
     local product = inputs.effects.productivity

@@ -5,7 +5,7 @@ data:extend(
             name = "mining",
             order = "ga",
             inventory_order = "ga",
-            icon = "__5dim_core__/graphics/icon/mining.png",
+            icon = "__OD27_5dim_core__/graphics/icon/mining.png",
             icon_size = 64
         },
         {

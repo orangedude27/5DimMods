@@ -5,7 +5,7 @@ data:extend(
             name = "decoration",
             order = "gz",
             inventory_order = "gz",
-            icon = "__5dim_core__/graphics/icon/decorative.png",
+            icon = "__OD27_5dim_core__/graphics/icon/decorative.png",
             icon_size = 64
         },
         {

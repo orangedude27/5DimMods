@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.module.generation-beacon")
+require("__OD27_5dim_core__.lib.module.generation-beacon")
 
 local modules = 2
 local energy = 480

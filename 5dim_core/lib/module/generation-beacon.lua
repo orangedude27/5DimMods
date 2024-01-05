@@ -9,7 +9,7 @@ function genBeacons(inputs)
     if inputs.new then
         item.name = "5d-beacon-" .. inputs.number
     end
-    item.icon = "__5dim_module__/graphics/icons/beacon/beacon-icon-" .. inputs.number .. ".png"
+    item.icon = "__OD27_5dim_module__/graphics/icons/beacon/beacon-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
     item.order = inputs.order
     item.place_result = item.name
@@ -33,7 +33,7 @@ function genBeacons(inputs)
     entity.module_specification.module_slots = inputs.moduleSlots or 2
     entity.energy_usage = inputs.energyUsage .. "kW"
     entity.graphics_set.animation_list[1].animation.layers[1].hr_version.filename =
-        "__5dim_module__/graphics/entities/beacon/beacon-bottom-" .. inputs.number .. ".png"
+        "__OD27_5dim_module__/graphics/entities/beacon/beacon-bottom-" .. inputs.number .. ".png"
 
     data:extend({entity, recipe, item})
 

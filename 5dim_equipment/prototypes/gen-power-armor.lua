@@ -1,4 +1,4 @@
-require("__5dim_core__.lib.equipment.generation-power-armor")
+require("__OD27_5dim_core__.lib.equipment.generation-power-armor")
 
 local inventory = 20
 local armorWidth = 10

@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "5d-pipe-to-ground-mk1-30",
-    icon = "__5dim_transport__/graphics/icon/pipe/icon_5d_pipe-to-underground_1_30_.png",
+    icon = "__OD27_5dim_transport__/graphics/icon/pipe/icon_5d_pipe-to-underground_1_30_.png",
     -- flags = {"goes-to-quickbar"},
     icon_size = 32,
     subgroup = "transport-pipe-ground-30",
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "pipe-to-ground",
     name = "5d-pipe-to-ground-mk1-30",
-    icon = "__5dim_transport__/graphics/icon/pipe/icon_5d_pipe-to-underground_1_30_.png",
+    icon = "__OD27_5dim_transport__/graphics/icon/pipe/icon_5d_pipe-to-underground_1_30_.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "5d-pipe-to-ground-mk1-30"},
     icon_size = 32,
