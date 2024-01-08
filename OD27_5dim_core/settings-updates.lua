@@ -1,15 +1,65 @@
+
+if not mods["RPGsystem"] then
+    data:extend(
+        {
+            {
+                type = "int-setting",
+                name = "5d-change-inventory",
+                order = "aa",
+                setting_type = "startup",
+                default_value = 60,
+                minimum_value = 1,
+                maximum_value = 1000,
+                localised_name = "[OD27 fork of 5Dim's mods] Stacks of player inventory (Default: 60)"
+            },
+            {
+                type = "int-setting",
+                name = "5d-long-reach",
+                order = "ba",
+                setting_type = "startup",
+                default_value = 6,
+                minimum_value = 1,
+                maximum_value = 1000,
+                localised_name = "[OD27 fork of 5Dim's mods] Long reach (Default: 6)",
+                localised_description = "Distance for build and open inventories, for can interact with all screen: 125"
+            },
+            {
+                type = "double-setting",
+                name = "5d-mining-speed",
+                order = "bc",
+                setting_type = "startup",
+                default_value = 1,
+                minimum_value = 0.01,
+                maximum_value = 1000,
+                localised_name = "[OD27 fork of 5Dim's mods] Mining speed (Multiplier)"
+            },
+            {
+                type = "int-setting",
+                name = "5d-long-mine",
+                order = "bb",
+                setting_type = "startup",
+                default_value = 6,
+                minimum_value = 1,
+                maximum_value = 1000,
+                localised_name = "[OD27 fork of 5Dim's mods] Long Mine (Default: 6)",
+                localised_description = "Extend the mining distance of your player: 125"
+            },
+            {
+                type = "int-setting",
+                name = "5d-hp",
+                order = "da",
+                setting_type = "startup",
+                default_value = 250,
+                minimum_value = 1,
+                maximum_value = 100000,
+                localised_name = "[OD27 fork of 5Dim's mods] Player health (Default 250)"
+            },
+        }
+    )
+end
+
 data:extend(
     {
-        {
-            type = "int-setting",
-            name = "5d-change-inventory",
-            order = "aa",
-            setting_type = "startup",
-            default_value = 60,
-            minimum_value = 1,
-            maximum_value = 1000,
-            localised_name = "[OD27 fork of 5Dim's mods] Stacks of player inventory (Default: 60)"
-        },
         {
             type = "int-setting",
             name = "5d-change-stack",
@@ -19,38 +69,6 @@ data:extend(
             minimum_value = 1,
             maximum_value = 1000,
             localised_name = "[OD27 fork of 5Dim's mods] Stacks of items (Multiplier)"
-        },
-        {
-            type = "int-setting",
-            name = "5d-long-reach",
-            order = "ba",
-            setting_type = "startup",
-            default_value = 6,
-            minimum_value = 1,
-            maximum_value = 1000,
-            localised_name = "[OD27 fork of 5Dim's mods] Long reach (Default: 6)",
-            localised_description = "Distance for build and open inventories, for can interact with all screen: 125"
-        },
-        {
-            type = "int-setting",
-            name = "5d-long-mine",
-            order = "bb",
-            setting_type = "startup",
-            default_value = 6,
-            minimum_value = 1,
-            maximum_value = 1000,
-            localised_name = "[OD27 fork of 5Dim's mods] Long Mine (Default: 6)",
-            localised_description = "Extend the mining distance of your player: 125"
-        },
-        {
-            type = "double-setting",
-            name = "5d-mining-speed",
-            order = "bc",
-            setting_type = "startup",
-            default_value = 1,
-            minimum_value = 0.01,
-            maximum_value = 1000,
-            localised_name = "[OD27 fork of 5Dim's mods] Mining speed (Multiplier)"
         },
         {
             type = "int-setting",
@@ -124,16 +142,6 @@ data:extend(
             default_value = false,
             per_user = false,
             localised_name = "[OD27 fork of 5Dim's mods] Start with robots technologies"
-        },
-        {
-            type = "int-setting",
-            name = "5d-hp",
-            order = "da",
-            setting_type = "startup",
-            default_value = 250,
-            minimum_value = 1,
-            maximum_value = 100000,
-            localised_name = "[OD27 fork of 5Dim's mods] Player health (Default 250)"
         },
         {
             type = "double-setting",
