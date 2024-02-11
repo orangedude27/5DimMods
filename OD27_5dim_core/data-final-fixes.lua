@@ -4,7 +4,9 @@ require("prototypes.item-group-changes")
 --Stack changes
 if settings.startup["5d-change-stack"] then
     for _, item in pairs(data.raw.item) do
-        item.stack_size = item.stack_size * settings.startup["5d-change-stack"].value
+        if (item.stack_size > 1) then
+            item.stack_size = item.stack_size * settings.startup["5d-change-stack"].value
+        end
     end
     for _, item in pairs(data.raw.ammo) do
         item.stack_size = item.stack_size * settings.startup["5d-change-stack"].value
