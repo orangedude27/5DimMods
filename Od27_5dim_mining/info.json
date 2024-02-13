@@ -7,5 +7,9 @@
     "contact": "https://github.com/Orangedude27/OD27_5DimMods/issues",
     "homepage": "https://mods.factorio.com/user/Orangedude27",
     "description": "Mining for OD27 fork of 5Dim's mod\n\rExtracts all kind of resources at high productivity also obtain water from everywhere.\n\rThis mod include:\n\r- 10 tiers of electric mining drills\n\r- 10 tiers of pumpjack\n\r- 10 tiers of water pumpjack, that allow to extract water on the ground\n\r- 10 tiers of offshore pumps",
-    "dependencies": ["OD27_5dim_core >= 1.1.0", "! 5dim_mining"]
+    "dependencies": [
+        "OD27_5dim_core >= 1.1.0",
+        "? aai-industry",
+        "! 5dim_mining"
+    ]
 }
