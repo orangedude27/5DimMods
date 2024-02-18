@@ -317,6 +317,23 @@ if mods["OD27_5dim_infiniteresearch"] then
     )
 end
 
+if mods["OD27_5dim_resources"] then
+    --order f for resources
+    data:extend(
+        {
+            {
+                type = "bool-setting",
+                name = "5d-industrial-furnace",
+                order = "fa",
+                setting_type = "startup",
+                default_value = true,
+                per_user = false,
+                localised_name = "[5Dim's New Resources] Add Industrial furnace"
+            },
+        }
+    )
+end
+
 if mods["OD27_5dim_vehicle"] and mods["OD27_5dim_equipment"] then
     --order z for misc
     data:extend(
