@@ -13,11 +13,15 @@ require("prototypes.gen-masher")
 require("prototypes.gen-electric-furnace")
 
 --Furnace
-require("prototypes.industrial-furnace")
-require("prototypes.industrial-recipes")
+if settings.startup["5d-industrial-furnace"].value then
+    require("prototypes.industrial-furnace")
+    require("prototypes.industrial-recipes")
+end
 
 --Recipe
 require("prototypes.recipe-category")
 
 --Tech
-require("prototypes.tech")
+if settings.startup["5d-industrial-furnace"].value then
+    require("prototypes.tech")
+end
