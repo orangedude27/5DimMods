@@ -47,7 +47,7 @@ data:extend(
         {
             type = "item",
             name = "5d-aluminium-wire",
-            icon = "__OD27_5dim_core__/graphics/icon/OD27_5dim_icon_aluminiunwire.png",
+            icon = "__OD27_5dim_core__/graphics/icon/5dim_icon_aluminiunwire.png",
             icon_size = 32,
             subgroup = "logistic-wire",
             order = "e",
