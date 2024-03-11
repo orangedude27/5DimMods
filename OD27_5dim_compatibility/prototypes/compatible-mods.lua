@@ -46,10 +46,10 @@ if mods["cargo-ships"] then
     --data.raw["lamp"]["or_lamp"].next_upgrade = nil
     data.raw["mining-drill"]["oil_rig"].next_upgrade = nil
     for _, signal in pairs(data.raw["rail-signal"]) do
-        table.insert(pipe.collision_mask, "object-layer")
+        table.insert(signal.collision_mask, "object-layer")
     end
     for _, chain in pairs(data.raw["rail-chain-signal"]) do
-        table.insert(pipe.collision_mask, "object-layer")
+        table.insert(chain.collision_mask, "object-layer")
     end
 end
 
