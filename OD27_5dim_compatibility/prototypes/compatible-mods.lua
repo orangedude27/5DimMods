@@ -32,10 +32,10 @@ end
 -- Krastorio 2 compatibility
 if mods["Krastorio2"] then
     for _, pipe in pairs(data.raw["pipe"]) do
-        pipe.collision_mask = {"object-layer"}
+        table.insert(pipe.collision_mask, "object-layer")
     end
     for _, pipe in pairs(data.raw["pipe-to-ground"]) do
-        pipe.collision_mask = {"object-layer"}
+        table.insert(pipe.collision_mask, "object-layer")
     end
 end
 
@@ -46,10 +46,10 @@ if mods["cargo-ships"] then
     --data.raw["lamp"]["or_lamp"].next_upgrade = nil
     data.raw["mining-drill"]["oil_rig"].next_upgrade = nil
     for _, signal in pairs(data.raw["rail-signal"]) do
-        signal.collision_mask = {"object-layer"}
+        table.insert(pipe.collision_mask, "object-layer")
     end
     for _, chain in pairs(data.raw["rail-chain-signal"]) do
-        chain.collision_mask = {"object-layer"}
+        table.insert(pipe.collision_mask, "object-layer")
     end
 end
 
