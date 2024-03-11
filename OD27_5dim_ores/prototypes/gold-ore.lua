@@ -46,7 +46,7 @@ data:extend(
         {
             type = "item",
             name = "5d-gold-wire",
-            icon = "__OD27_5dim_core__/graphics/icon/OD27_5dim_icon_goldwire.png",
+            icon = "__OD27_5dim_core__/graphics/icon/5dim_icon_goldwire.png",
             icon_size = 32,
             subgroup = "logistic-wire",
             order = "d",
