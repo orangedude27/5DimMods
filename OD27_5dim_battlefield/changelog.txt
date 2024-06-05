@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.12
+Date: 06-04-2024
+  Changes:
+    - Fixed issue with higher tiers of flamethrower turrets not able to use all available burnable fluids
+---------------------------------------------------------------------------------------------------
 Version: 1.1.11
 Date: 01-12-2024
   Changes:
