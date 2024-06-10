@@ -47,7 +47,7 @@ data:extend(
         {
             type = "item",
             name = "5d-zinc-gear-wheel",
-            icon = "__OD27_5dim_core__/graphics/icon/icon_OD27_5dim_zinc-gear-wheel.png",
+            icon = "__OD27_5dim_core__/graphics/icon/icon_5dim_zinc-gear-wheel.png",
             icon_size = 32,
             subgroup = "intermediate-gear",
             order = "c",
